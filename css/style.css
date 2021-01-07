@@ -104,13 +104,66 @@ html {
 
 body {
   font-family: 'Spartan', sans-serif;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  text-align: center; }
+
+.hero-text h2 {
+  width: 80%;
+  margin: auto;
+  color: #502050;
+  margin-bottom: 2rem; }
+
+.hero-text p {
+  width: 90%;
+  margin: auto;
+  color: #937b92;
+  margin-bottom: 2rem; }
+
+.hero-stars {
+  background-color: #f7f2f7;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px; }
+
+.hero-stars p {
+  font-weight: 700;
+  color: #502050; }
 
 .start-row {
   display: flex; }
 
 .star {
   display: inline-block; }
+
+.testimonial-container {
+  background-color: #502050;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  padding: 2rem; }
+
+.user-info {
+  display: flex;
+  margin-bottom: 2rem; }
+
+.user-info img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 2rem; }
+
+.user-name {
+  font-weight: 700;
+  color: #f7f2f7; }
+
+.user-type {
+  color: #ee68a4; }
+
+.testimonial {
+  color: white; }
 
 .attribution {
   font-size: 11px;
