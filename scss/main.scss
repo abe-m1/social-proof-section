@@ -23,6 +23,14 @@ body {
   font-size: 1.5rem;
 }
 
+.start-row {
+  display: flex;
+}
+
+.star {
+  display: inline-block;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
